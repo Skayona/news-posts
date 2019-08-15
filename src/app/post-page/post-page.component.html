@@ -1,0 +1,14 @@
+<article *ngIf="post">
+  <h2>{{ post.title }}</h2>
+  <p class="text-right text-muted">
+    <small>
+      Post id: {{ post.id }}
+    </small>
+  </p>
+  <p>{{ post.body }}</p>
+  <p>
+    <small class="text-muted">
+      By user: {{ post.userId }}
+    </small>
+  </p>
+</article>
